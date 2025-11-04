@@ -1,7 +1,8 @@
-#include <iostream>
-
 #include "src/hello.hpp"
 
-int main() {
-  std::cout << hello() << std::endl;
+#include <iostream>
+
+int main()
+{
+    std::cout << hello() << std::endl;
 }
