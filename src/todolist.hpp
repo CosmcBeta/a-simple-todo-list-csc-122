@@ -10,12 +10,11 @@ public:
 
     void add(std::string name);
     void markComplete(std::string name);
-
-    void printAll();
-    void printComplete();
-    void printIncomplete();
-
     void clear();
+
+    std::string getAll() const;
+    std::string getComplete() const;
+    std::string getIncomplete() const;
 
 private:
     std::map<std::string, bool> toDoList;

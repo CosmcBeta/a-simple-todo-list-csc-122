@@ -16,7 +16,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(hello_test tests/hello_test.cpp src/hello.cpp)
-add_executable(main main.cpp src/hello.cpp)
+add_executable(todolist_test tests/todolist_test.cpp src/todolist.cpp)
+add_executable(main main.cpp src/todolist.cpp)
 
-target_link_libraries(hello_test PRIVATE Catch2::Catch2WithMain)
+target_link_libraries(todolist_test PRIVATE Catch2::Catch2WithMain)
